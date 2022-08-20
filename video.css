@@ -1,0 +1,174 @@
+*{
+margin: 0;
+box-sizing: border-box;
+
+
+}
+
+
+body{
+
+background-color:#000000;
+color: white;
+display: grid;
+place-items:center;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+.start {
+background-color: darkslategrey;
+ 
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+   display: flex;
+   position: fixed;
+   top:0;
+   right:840px;
+   bottom:-0;
+   padding: 1rem;
+   place-items:right;
+
+}
+
+.app-vedio{
+
+     position: relative;
+     height: 580px;
+     background-color: black;
+     overflow: scroll;
+     width: 100%;
+     max-width: 350px;
+     border-radius: 20px;
+     margin-top: 10px;
+     scroll-snap-type: y mandatory;
+
+
+
+}
+
+
+
+.app-vedio::-webkit-scrollbar{
+
+display: none;
+
+}
+
+.vedio{
+
+position: relative;
+height: 100%;
+width: 100%;
+background-color: rgb(49, 41, 41);
+scroll-snap-align: start;
+
+
+}
+.vedio-player{
+
+object-fit: cover;
+width: 100%;
+height: 100%;
+
+}
+.footer{
+
+    display: flex;
+    position: relative;
+    bottom: 130px;
+    margin-left: 20px;
+}
+
+@keyframes rottate{
+    from{
+transform: rotate(0deg);
+    }
+    to{
+transform: rotate(360deg);
+    }
+}
+
+.img-play{
+
+width: 55px;
+position: absolute;
+right: 25px;
+bottom: 25px;
+animation: rottate infinite 5s linear;
+
+}
+.img1-play{
+
+    width: 35px;
+    position: absolute;
+    right: 25px;
+    bottom: 100px;
+    
+    
+    }
+    .img2-play{
+
+        width: 35px;
+        position: absolute;
+        right: 25px;
+        bottom: 160px;
+        
+        
+        }
+        .footer-text{
+            flex: 1;
+
+        }
+        .footer-text h3{
+
+            padding-bottom:15px;
+        }
+        .img-marq{
+
+            display: flex;
+            align-items: center;
+            width: 390px;
+            
+        }
+        .img-marq img{
+
+         width: 44px; 
+         margin-top: 3px;
+
+        }
+        .img-marq marquee{
+
+     margin-left: 3px;
+     margin-top:10px ;
+     width: 65%;
+        }
+        html{
+            scroll-snap-type: y mandatory;
+        }
+ li , a, button {
+ 
+            font-size: 16px;
+            color: white;
+            text-decoration: none;
+        
+        
+        }
+header{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px ;
+        background-color: crimson;
+        width: 100%;
+        }
+.logo{
+    cursor: pointer;
+}
+.nav_links li a:hover{
+
+color: #000;
+
+}

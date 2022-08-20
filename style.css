@@ -1,0 +1,117 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body{
+
+    background-color:rgba(54, 181, 219, 0.815) ;
+    
+}
+
+h1{
+    text-align: center;
+   color: white;
+}
+h4 {
+
+    text-align: center;
+   color: white;
+}
+h3{
+text-align: center;
+color: white;
+}
+.login {
+
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color: dimgrey;
+padding: 40px;
+border-bottom-right-radius: 15px;
+border-top-left-radius: 15px;
+}
+.login input , button {
+
+margin-top: 20px;
+padding: 8px;
+border-radius: 3px;
+border: none;
+outline: none;
+}
+label {
+
+font-size: 22px;
+color: white;
+animation-name: login;
+animation-duration: 4s;
+}
+@keyframes login{
+from {
+
+    color: aliceblue;
+}to {
+    color: darkred;
+}
+
+}
+a {
+margin-top: 10px;
+    padding-top: 20px;
+    
+
+}
+
+#submit {
+    background-color: green;
+    color: aliceblue;
+    width: 100%;
+    font-size: 17px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.home {
+    text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color: rgb(145, 145, 145);
+padding: 60px;
+border-bottom-right-radius: 15px;
+border-top-left-radius: 15px;
+}
+.a {
+    background-color: green;
+    color: aliceblue;
+  
+    font-size: 17px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    padding:10px;
+}
+li , a, button {
+ 
+    font-size: 16px;
+    color: brown;
+    text-decoration: none;
+
+
+}
+header{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 10px ;
+}
